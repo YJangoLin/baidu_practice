@@ -1,0 +1,114 @@
+picea_other_function:
+  close_ai_recognition: null
+  close_carpet_avoidance: null
+  close_carpet_pressurization: null
+  close_childlock: null
+  close_dnd_mode:
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: time
+    slot_type: TIME
+  - slot_name: condition
+    slot_type: STRING
+  close_laser_assistant: null
+  close_station_light: null
+  close_voice_assistant: null
+  continue_back_station: null
+  continue_clean_roller: null
+  continue_collect_dust: null
+  continue_drying: null
+  continue_exit_duck: null
+  continue_generate_map: null
+  delete_dnd_mode:
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: time
+    slot_type: TIME
+  - slot_name: condition
+    slot_type: STRING
+  gesture_name:
+  - slot_name: is_location
+    slot_type: STRING
+  - slot_name: is_furniture
+    slot_type: STRING
+  - slot_name: not_location
+    slot_type: STRING
+  - slot_name: not_furniture
+    slot_type: STRING
+  info_action_status: null
+  info_clean_completed_space:
+  - slot_name: clean_mode
+    slot_type: STRING
+  info_clean_next_space: null
+  info_clean_progress: null
+  info_clean_space: null
+  info_clean_unfinished_space: null
+  info_complete_time: null
+  info_consumable:
+  - slot_name: consumable
+    slot_type: STRING
+  info_elec_status: null
+  info_error_status: null
+  info_location_status: null
+  info_todo_time: null
+  move:
+  - slot_name: position
+    slot_type: STRING
+  - slot_name: distance
+    slot_type: INT
+  - slot_name: distance_description
+    slot_type: STRING
+  move_location:
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  open_ai_recognition: null
+  open_carpet_avoidance: null
+  open_carpet_pressurization: null
+  open_childlock: null
+  open_dnd_mode:
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: time
+    slot_type: TIME
+  - slot_name: condition
+    slot_type: STRING
+  open_laser_assistant: null
+  open_station_light: null
+  pause_back_station: null
+  pause_clean_roller: null
+  pause_collect_dust: null
+  pause_drying: null
+  pause_exit_duck: null
+  pause_generate_map: null
+  set_dnd_mode:
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: time
+    slot_type: TIME
+  - slot_name: condition
+    slot_type: STRING
+  start_back_station: null
+  start_clean_roller: null
+  start_collect_dust: null
+  start_drying: null
+  start_exit_duck: null
+  start_generate_map: null
+  stop_back_station: null
+  stop_clean_roller: null
+  stop_collect_dust: null
+  stop_drying: null
+  stop_exit_duck: null
+  stop_generate_map: null
+  turn:
+  - slot_name: position
+    slot_type: STRING
+  - slot_name: angle
+    slot_type: INT
+  - slot_name: distance_description
+    slot_type: STRING

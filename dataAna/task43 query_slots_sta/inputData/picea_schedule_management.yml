@@ -1,0 +1,70 @@
+picea_schedule_management:
+  delete_schedule:
+  - slot_name: is_start_clean
+    slot_type: STRING
+  - slot_name: is_start_sweep
+    slot_type: STRING
+  - slot_name: is_start_mop
+    slot_type: STRING
+  - slot_name: is_start_sweep_and_mop
+    slot_type: STRING
+  - slot_name: is_start_key_clean
+    slot_type: STRING
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  - slot_name: time
+    slot_type: TIME
+  - slot_name: condition
+    slot_type: STRING
+  set_schedule:
+  - slot_name: is_start_clean
+    slot_type: STRING
+  - slot_name: is_start_sweep
+    slot_type: STRING
+  - slot_name: is_start_mop
+    slot_type: STRING
+  - slot_name: is_start_sweep_and_mop
+    slot_type: STRING
+  - slot_name: is_start_key_clean
+    slot_type: STRING
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  - slot_name: time
+    slot_type: TIME
+  view_schedule:
+  - slot_name: is_start_clean
+    slot_type: STRING
+  - slot_name: is_start_sweep
+    slot_type: STRING
+  - slot_name: is_start_mop
+    slot_type: STRING
+  - slot_name: is_start_sweep_and_mop
+    slot_type: STRING
+  - slot_name: is_start_key_clean
+    slot_type: STRING
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  - slot_name: time
+    slot_type: TIME
+  - slot_name: condition
+    slot_type: STRING

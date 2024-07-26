@@ -1,0 +1,15 @@
+整理云鲸和石头线上的数据,并用山川的intent与之匹配
+
+
+
+
+问题1: slot在query中未出现类似：
+    query:剪刀布  slot:['石头剪刀布'] 
+    query:重新开始  slot:['零秒'] 
+    query:广州天气  slot:['明天'] 
+
+问题2: query中被检测出的slot被转换为英文，类似：
+    query:打扫沙发底下  slot:['沙发', 'under'] 
+
+解决方法：
+    利用error对slots进行标记：如 "error:     query:剪刀布,text:[石头剪刀布]" 

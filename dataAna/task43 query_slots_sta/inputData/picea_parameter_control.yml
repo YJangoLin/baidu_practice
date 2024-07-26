@@ -1,0 +1,13 @@
+picea_parameter_control:
+  down_suction: null
+  down_water_volume: null
+  info_mop_water_volume: null
+  info_suction: null
+  set_air_suction:
+  - slot_name: gear
+    slot_type: STRING
+  set_water_volume:
+  - slot_name: gear
+    slot_type: STRING
+  up_suction: null
+  up_water_volume: null

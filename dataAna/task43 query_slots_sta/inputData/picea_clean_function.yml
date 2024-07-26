@@ -1,0 +1,322 @@
+picea_clean_function:
+  ban_clean:
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  ban_clean_here: null
+  ban_clean_there: null
+  ban_mop_here: null
+  ban_mop_there: null
+  ban_sweep_and_mop_here: null
+  ban_sweep_and_mop_there: null
+  ban_sweep_here: null
+  ban_sweep_there: null
+  come_here: null
+  come_here_clean: null
+  come_here_key_clean: null
+  come_here_mop: null
+  come_here_sweep: null
+  come_here_sweep_and_mop: null
+  continue_clean:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  continue_key_clean:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: ban_location
+    slot_type: STRING
+  - slot_name: ban_furniture
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  continue_mop:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  continue_sweep:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  continue_sweep_and_mop:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  follow_me: null
+  follow_me_clean: null
+  follow_me_mop: null
+  follow_me_sweep: null
+  follow_me_sweep_and_mop: null
+  go_away: null
+  pause_clean:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  pause_key_clean:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: ban_location
+    slot_type: STRING
+  - slot_name: ban_furniture
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  pause_mop:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  pause_sweep:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  pause_sweep_and_mop:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  start_clean:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: ban_location
+    slot_type: STRING
+  - slot_name: ban_furniture
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  start_key_clean:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: ban_location
+    slot_type: STRING
+  - slot_name: ban_furniture
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  start_mop:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: ban_location
+    slot_type: STRING
+  - slot_name: ban_furniture
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  start_sweep:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: ban_location
+    slot_type: STRING
+  - slot_name: ban_furniture
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  start_sweep_and_mop:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: ban_location
+    slot_type: STRING
+  - slot_name: ban_furniture
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  stop_clean:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  stop_key_clean:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: ban_location
+    slot_type: STRING
+  - slot_name: ban_furniture
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  stop_mop:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  stop_sweep:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING
+  stop_sweep_and_mop:
+  - slot_name: frequency
+    slot_type: INT
+  - slot_name: set_priority
+    slot_type: STRING
+  - slot_name: location
+    slot_type: STRING
+  - slot_name: furniture
+    slot_type: STRING
+  - slot_name: is_all
+    slot_type: STRING
+  - slot_name: position
+    slot_type: STRING

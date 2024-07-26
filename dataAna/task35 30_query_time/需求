@@ -1,0 +1,1 @@
+统计近一个月内的所有数据的query和time字段，time字段为list类型，按query的顺序将其划分为多个字段

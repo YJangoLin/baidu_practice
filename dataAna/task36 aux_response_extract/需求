@@ -1,0 +1,1 @@
+获取全部aux设备的shc-model*下的"aux_schedule_management" AND "response"下的全部数据，并筛选出其中的query，并统计每个qeury的数量
